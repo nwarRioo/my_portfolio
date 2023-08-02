@@ -1,0 +1,8 @@
+.statusText {
+    padding: 20px 40px;
+    display: inline-block;
+    background-color: grey;
+    color: #00FF7F;
+    font-size: 30px;
+    border-radius: 20px;
+}

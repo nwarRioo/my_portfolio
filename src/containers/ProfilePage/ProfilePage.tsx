@@ -8,6 +8,7 @@ const ProfilePage: FC = (): ReactElement => {
         <Container>
             <div className={styles.profilePage}>
                 <h1>ProfilePage</h1>
+                <p className={styles.statusText}>В разработке...</p>
             </div>
         </Container>
     );
