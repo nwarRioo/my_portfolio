@@ -2,6 +2,8 @@ import { FC, ReactElement } from "react";
 import styles from "./ProfilePage.module.css";
 import { Container } from "../../components/UI/Container/Container";
 import Header from "../../components/Header/Header";
+import Demo from "./Demo/Demo";
+import Footer from "../../components/Footer/Footer";
 
 
 const ProfilePage: FC = (): ReactElement => {
@@ -9,10 +11,13 @@ const ProfilePage: FC = (): ReactElement => {
         <>  
             <Header />
             <Container>
+                <Demo />
                 <div className={styles.profilePage}>
-                    <p className={styles.statusText}>В разработке...</p>
+                    <div className={styles.statusText}>В разработке...</div>
+                    <div className={styles.statusText}>В разработке...</div>
                 </div>
             </Container>
+            <Footer />
         </>
     );
 };

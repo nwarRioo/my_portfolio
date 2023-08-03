@@ -6,7 +6,6 @@ const Header: FC = (): ReactElement => {
     return (
         <header className={styles.header}>
             <Logo />
-            
         </header>
     );
 };
