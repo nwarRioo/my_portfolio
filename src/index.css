@@ -4,5 +4,7 @@
 }
 
 body {
-  background: url("/src/assets/images/clouds_background.jpg") center/cover no-repeat;
+  margin: 0;
+  padding: 0;
+  background-color: #D3D3D3;
 }
