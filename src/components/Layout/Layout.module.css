@@ -1,0 +1,15 @@
+.navLinks {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.navButton {
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+}
+
+.navButton:hover {
+    background-color: yellow;
+}
