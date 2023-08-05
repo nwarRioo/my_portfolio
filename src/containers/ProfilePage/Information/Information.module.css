@@ -1,0 +1,22 @@
+.informationBlock {
+    padding: 10px;
+    background-color: #f8f9fa;
+    position: relative;
+    padding-top: 60px;
+}
+
+.avatarBox {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid black;
+    top: -85px;
+    left: 30px;
+    overflow: hidden;
+}
+
+.avatarBox img {
+    width: 100%;
+    object-position: center;
+}
