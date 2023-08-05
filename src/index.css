@@ -8,10 +8,10 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #D3D3D3;
+  background-color: #f8f9fa;
 }
 
 .active {
-  color: violet;
-  background-color: red;
+  border-bottom: 4px solid salmon;
+  transition: 0.3s;
 }

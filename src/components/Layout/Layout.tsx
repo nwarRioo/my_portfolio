@@ -8,9 +8,9 @@ const Layout: FC = (): ReactElement => {
     return (
         <div className={styles.layout}>
             <div className={styles.navLinks}>
-                <NavLink className={styles.navButton} to={"about"}>Ajara</NavLink>
-                <NavLink className={styles.navButton} to={"works"}>GOODJOOO</NavLink>
-                
+                <NavLink className={styles.navButton} to={"/my_portfolio/"}>Лента</NavLink>
+                <NavLink className={styles.navButton} to={"about"}>О себе</NavLink>
+                <NavLink className={styles.navButton} to={"works"}>Работы</NavLink>
             </div>
             
             <Outlet />
