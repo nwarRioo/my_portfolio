@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/Footer";
 import Information from "./Information/Information";
 import { Route, Routes } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
+import AboutMe from "../../components/AboutMe/AboutMe";
 
 const ProfilePage: FC = (): ReactElement => {
     return (
@@ -16,9 +17,9 @@ const ProfilePage: FC = (): ReactElement => {
                 <Information />
                 <Routes>
                     <Route path={"/my_portfolio/"} element={<Layout />}>
-                        <Route path="/my_portfolio/about" element={<Demo />}/>
-                        <Route path="/my_portfolio/works" element={<Demo />}/>
-                        
+                        <Route index element={<h1>Еще не заполнено</h1>}/>
+                        <Route path="/my_portfolio/works" element={<h1>Еще не заполнено</h1>}/>
+                        <Route path="/my_portfolio/about" element={<AboutMe />}/>
                     </Route>
                 </Routes>
             </Container>

@@ -1,15 +1,21 @@
 .navLinks {
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0;
+    margin: 0;
 }
 
 .navButton {
     text-decoration: none;
     width: 100%;
     text-align: center;
+    padding: 20px 0;
+    color: black;
+    font-weight: 700;
+    border-bottom: 4px solid transparent;
 }
 
+
 .navButton:hover {
-    background-color: yellow;
+    background-color: #B0C4DE;
 }
