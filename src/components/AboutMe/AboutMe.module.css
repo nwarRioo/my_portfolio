@@ -1,0 +1,9 @@
+.aboutMe {
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 900px) {
+    .aboutMe {
+        padding: 0;
+    }
+}
