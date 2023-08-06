@@ -1,5 +1,54 @@
-.demo {
+.demo 
+{
+    z-index: -100;
+    margin-top: 60px;
     height: 200px; 
-    background-color: #B0C4DE;
+    background-color: #0c192c;
+    overflow: hidden;
+    position: relative;
+    display: flex;
 }
+
+.bubbles
+{
+    display: flex;
+    position: relative;
+}
+
+.bubbles span
+{
+    position: relative; 
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #4fc3dc;
+    margin: 0 4px;
+    box-shadow: 0 0 0 10px #4fc3dc44,
+    0 0 50px #4fc3dc,
+    0 0 100px #4fc3dc;
+    animation: animate linear infinite;
+    animation-duration: calc(300s / var(--i));
+}
+
+.bubbles span:nth-child(even) 
+{
+    background-color: #ff2d75;
+    box-shadow: 0 0 0 10px #ff2d7544,
+    0 0 50px #ff2d75,
+    0 0 100px #ff2d75;
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        transform: translateY(200px) scale(0);
+    }
+    
+    100%
+    {
+        transform: translateY(-30px) scale(1);
+    }
+}
+
 
