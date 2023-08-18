@@ -1,0 +1,64 @@
+.works {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 0 10px;
+}
+
+.worksHead {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.workItem {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.workImg {
+    height: 150px;
+    overflow: hidden;
+    border-radius: 25px;
+    max-width: 400px;
+    box-shadow: 0 0 9px #BEADFA;
+    cursor: pointer;
+}
+
+.workImg:hover {
+    scale: 1.02;
+    transition: 0.3s;
+}
+
+.workImg img {
+    width: 100%;
+}
+
+.workInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.workTitle {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.workLink {
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
+}
+
+
+.workLink:hover {
+    color: #A084E8;
+}
+
+@media screen and (min-width: 900px) {
+    .works {
+        padding: 0;
+    }
+}
+

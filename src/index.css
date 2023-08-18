@@ -5,15 +5,15 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0;
-  padding: 0;
   background-color: #f8f9fa;
 }
 
 .active {
-  border-bottom: 4px solid salmon;
+  border-bottom: 4px solid #5C4B99;
   transition: 0.3s;
 }
