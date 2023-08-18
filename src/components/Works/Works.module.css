@@ -3,12 +3,7 @@
     flex-direction: column;
     gap: 25px;
     padding: 0 10px;
-}
-
-.worksHead {
-    margin: 0;
-    font-size: 18px;
-    font-weight: 500;
+    margin-bottom: 40px;
 }
 
 .workItem {
@@ -21,7 +16,7 @@
     height: 150px;
     overflow: hidden;
     border-radius: 25px;
-    max-width: 400px;
+    max-width: 500px;
     box-shadow: 0 0 9px #BEADFA;
     cursor: pointer;
 }
@@ -56,9 +51,31 @@
     color: #A084E8;
 }
 
+@media screen and (min-width: 500px) {
+    .workItem {
+        flex-direction: row;
+    }
+    
+    .workImg {
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    
+    .workImg {
+        max-width: 300px;
+    }
+}
+
+
 @media screen and (min-width: 900px) {
     .works {
         padding: 0;
+    }
+
+    .workImg {
+        max-width: 450px;
     }
 }
 

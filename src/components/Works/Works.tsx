@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const Works: FC = (): ReactElement => {
     return (
         <div className={styles.works}>
-            <p className={styles.worksHead}>Представляю вам мои некторые работы отобранные для портфолио</p>
             <div className={styles.workItem}>
                 <Link to={"https://nwarrioo.github.io/dataware/"} target={"_blank"} className={styles.workImg}>
                     <img src="./dataware.jpg" alt="website" />

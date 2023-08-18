@@ -21,9 +21,6 @@ const Demo: FC = (): ReactElement => {
                 {spans}
             </div>
         </div>
-        <div className={styles.hola}>
-
-        </div>
         </>
     );
 };
