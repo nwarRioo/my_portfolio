@@ -7,6 +7,7 @@ import Information from "./Information/Information";
 import { Route, Routes } from "react-router-dom";
 import Layout from "../../components/Layout/Layout";
 import AboutMe from "../../components/AboutMe/AboutMe";
+import Works from "../../components/Works/Works";
 
 const ProfilePage: FC = (): ReactElement => {
     return (
@@ -18,7 +19,7 @@ const ProfilePage: FC = (): ReactElement => {
                 <Routes>
                     <Route path={"/my_portfolio/"} element={<Layout />}>
                         <Route index element={<h2 style={{padding: "0 10px"}}>Еще не заполнено</h2>}/>
-                        <Route path="/my_portfolio/works" element={<h2 style={{padding: "0 10px"}}>Еще не заполнено</h2>}/>
+                        <Route path="/my_portfolio/works" element={<Works />}/>
                         <Route path="/my_portfolio/about" element={<AboutMe />}/>
                     </Route>
                 </Routes>

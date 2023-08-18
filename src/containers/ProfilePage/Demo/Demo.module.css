@@ -3,7 +3,8 @@
     z-index: -100;
     margin-top: 60px;
     height: 200px; 
-    background-color: #0c192c;
+    background: url("../../../assets/images/mobile_background.jpg") center/cover no-repeat;
+    width: 100%;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -11,7 +12,7 @@
 
 .bubbles
 {
-    display: flex;
+    display: none;
     position: relative;
 }
 
@@ -51,4 +52,26 @@
     }
 }
 
+
+@media screen and (min-width: 500px) {
+    .workItem {
+        flex-direction: row;
+    }
+    
+    .workImg {
+        max-width: 200px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .demo {
+        background: #0c192c;
+    }
+    
+    .bubbles
+    {
+        display: flex;
+    }
+}
 
