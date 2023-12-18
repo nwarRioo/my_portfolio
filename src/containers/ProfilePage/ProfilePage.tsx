@@ -18,9 +18,11 @@ const ProfilePage: FC = (): ReactElement => {
                 <Information />
                 <Routes>
                     <Route path={"/my_portfolio/"} element={<Layout />}>
-                        <Route index element={<h2 style={{padding: "0 10px"}}>Еще не заполнено</h2>}/>
+                        {/* <Route index element={<h2 style={{padding: "0 10px"}}>Еще не заполнено</h2>}/> */}
+                        <Route path="/my_portfolio/feed" element={<h2 style={{padding: "0 10px"}}>Еще не заполнено</h2>}/>
+                        <Route index element={<AboutMe />}/>
                         <Route path="/my_portfolio/works" element={<Works />}/>
-                        <Route path="/my_portfolio/about" element={<AboutMe />}/>
+                        
                     </Route>
                 </Routes>
             </Container>

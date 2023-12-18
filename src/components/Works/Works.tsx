@@ -18,7 +18,11 @@ const Works: FC = (): ReactElement => {
                     <Link to={"https://www.figma.com/file/WZMYFpOUevKClkwXx80H9d/example-1?type=design&node-id=0-1&mode=design&t=Q3M7CSiemRlb87iz-0"} 
                         target={"_blank"}
                         className={styles.workLink}
-                    >Перейти на страницу просмотра макета</Link>
+                    >Перейти на страницу просмотра макета Figma</Link>
+                    <Link to={"https://github.com/nwarRioo/dataware"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Ссылка на проект github</Link>
                 </div>
             </div>
             <div className={styles.workItem}>
@@ -35,7 +39,28 @@ const Works: FC = (): ReactElement => {
                     <Link to={"https://www.figma.com/file/nqkUuPD1jy6ahrJg97wD8x/Exam-2?type=design&node-id=8-5967&mode=design&t=NUG6Wp0YT8qWwLca-0"} 
                         target={"_blank"}
                         className={styles.workLink}
-                    >Перейти на страницу просмотра макета</Link>
+                    >Перейти на страницу просмотра макета Figma</Link>
+                    <Link to={"https://github.com/nwarRioo/example_page_01"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Ссылка на проект github</Link>
+                </div>
+            </div>
+            <div className={styles.workItem}>
+                <Link className={styles.workImg} to={"https://nwarrioo.github.io/example_page_01/"} 
+                    target={"_blank"}>
+                    <img src="./my_shop.jpg" alt="website" />
+                </Link>
+                <div className={styles.workInfo}>
+                    <p className={styles.workTitle}>Пример страницы на React TS с использованием Redux Toolkit</p>
+                    <Link to={"https://nwarrioo.github.io/e-market/"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Перейти на страницу</Link>
+                    <Link to={"https://github.com/nwarRioo/e-market"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Ссылка на проект github</Link>
                 </div>
             </div>
         </div>

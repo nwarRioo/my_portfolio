@@ -2,6 +2,14 @@
     padding: 0 10px;
 }
 
+.textLine {
+    margin-bottom: 5px;
+}
+
+.skillList {
+    padding: 0 20px;
+}
+
 @media screen and (min-width: 900px) {
     .aboutMe {
         padding: 0;
