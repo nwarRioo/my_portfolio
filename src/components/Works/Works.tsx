@@ -47,7 +47,7 @@ const Works: FC = (): ReactElement => {
                 </div>
             </div>
             <div className={styles.workItem}>
-                <Link className={styles.workImg} to={"https://nwarrioo.github.io/example_page_01/"} 
+                <Link className={styles.workImg} to={"https://nwarrioo.github.io/e-market/"} 
                     target={"_blank"}>
                     <img src="./my_shop.jpg" alt="website" />
                 </Link>
@@ -58,6 +58,23 @@ const Works: FC = (): ReactElement => {
                         className={styles.workLink}
                     >Перейти на страницу</Link>
                     <Link to={"https://github.com/nwarRioo/e-market"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Ссылка на проект github</Link>
+                </div>
+            </div>
+            <div className={styles.workItem}>
+                <Link className={styles.workImg} to={"https://nwarrioo.github.io/example_page_01/"} 
+                    target={"_blank"}>
+                    <img src="./chat.jpg" alt="website" />
+                </Link>
+                <div className={styles.workInfo}>
+                    <p className={styles.workTitle}>Пример веб форума на базе React TS и MongoDB</p>
+                    <Link to={"https://www.youtube.com/watch?v=YA3lsfyahcg"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Ссылка на видеоролик с процессом работы форума</Link>
+                    <Link to={"https://github.com/nwarRioo/chat"} 
                         target={"_blank"}
                         className={styles.workLink}
                     >Ссылка на проект github</Link>
