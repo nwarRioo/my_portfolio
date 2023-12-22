@@ -64,7 +64,7 @@ const Works: FC = (): ReactElement => {
                 </div>
             </div>
             <div className={styles.workItem}>
-                <Link className={styles.workImg} to={"https://nwarrioo.github.io/example_page_01/"} 
+                <Link className={styles.workImg} to={"https://github.com/nwarRioo/chat"} 
                     target={"_blank"}>
                     <img src="./chat.jpg" alt="website" />
                 </Link>
@@ -75,6 +75,23 @@ const Works: FC = (): ReactElement => {
                         className={styles.workLink}
                     >Ссылка на видеоролик с процессом работы форума</Link>
                     <Link to={"https://github.com/nwarRioo/chat"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Ссылка на проект github</Link>
+                </div>
+            </div>
+            <div className={styles.workItem}>
+                <Link className={styles.workImg} to={"https://nwarrioo.github.io/parallax/"} 
+                    target={"_blank"}>
+                    <img src="./parallax.jpg" alt="website" />
+                </Link>
+                <div className={styles.workInfo}>
+                    <p className={styles.workTitle}>Пример страницы с эффектом Parallax</p>
+                    <Link to={"https://nwarrioo.github.io/parallax/"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Перейти на страницу</Link>
+                    <Link to={"https://github.com/nwarRioo/parallax"} 
                         target={"_blank"}
                         className={styles.workLink}
                     >Ссылка на проект github</Link>
