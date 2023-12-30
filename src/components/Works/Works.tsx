@@ -97,6 +97,23 @@ const Works: FC = (): ReactElement => {
                     >Ссылка на проект github</Link>
                 </div>
             </div>
+            <div className={styles.workItem}>
+                <Link className={styles.workImg} to={"https://nwarrioo.github.io/game/"} 
+                    target={"_blank"}>
+                    <img src="./game.jpg" alt="website" />
+                </Link>
+                <div className={styles.workInfo}>
+                    <p className={styles.workTitle}>2D игра платформер реализованная на JS</p>
+                    <Link to={"https://nwarrioo.github.io/game/"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Перейти на страницу</Link>
+                    <Link to={"https://github.com/nwarRioo/game"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >Ссылка на проект github</Link>
+                </div>
+            </div>
         </div>
     );
 };

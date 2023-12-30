@@ -1,10 +1,14 @@
 import { FC, ReactElement } from "react";
-import styles from "./Logo.module.css";
 import { Link } from "react-router-dom";
+import styles from "./Logo.module.css";
 
 const Logo: FC = (): ReactElement => {
     return (
-        <Link className={styles.logo} to={"/my_portfolio"} />
+        <Link to={"/my_portfolio"} className={styles.logo_container}>
+            <div className={styles.logo}></div>
+            <p className={styles.logo_text}>Портфолио</p>
+        </Link>
+            
     );
 };
 

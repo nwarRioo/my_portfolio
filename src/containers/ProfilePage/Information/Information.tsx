@@ -1,6 +1,6 @@
 import { FC, ReactElement } from "react";
 import styles from "./Information.module.css";
-import avatar from "../../../assets/images/porfile_avatar.jpg";
+import avatar from "../../../assets/images/Untitled-1.png";
 
 const Information: FC = (): ReactElement => {
     return (
