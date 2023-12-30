@@ -1,0 +1,34 @@
+{
+    "feedBlock": {
+        "emptyFeed": "Еще не заполнено"
+    },
+    "informationBlock": {
+        "name": "Ануар Сатыбалдинов",
+        "specialization": "Javascript фуллстэк разработчик."
+    },
+    "logo": "Портфолио",
+    "blockTitle": {
+        "feed": "Лента",
+        "aboutMe": "О себе",
+        "works": "Работы"
+    },
+    "aboutMe": {
+        "greeting": "Всем привет!",
+        "nameAndProfession": "Меня зовут Ануар. Являюсь Full stack Javascript разработчиком.",
+        "knowledge": "Разрабатываю веб приложения и сайты с использованием знании и навыков в следующих областях:"
+    },
+    "projects": {
+        "titles": {
+            "htmlCss": "Пример простой страницы написанной на HTML и СSS",
+            "htmlSass": "Пример страницы с использованием SASS",
+            "reactTs": "Пример страницы на React TS с использованием Redux Toolkit",
+            "forum": "Пример веб форума на базе React TS и MongoDB",
+            "parallax": "Пример страницы с эффектом Parallax",
+            "game": "2D игра платформер реализованная на JS"
+        },
+        "link": "Перейти на страницу",
+        "figmaLink": "Перейти на страницу просмотра макета Figma",
+        "githubLink": "Ссылка на проект github",
+        "youtubeLink": "Ссылка на видеоролик с процессом работы форума"
+    }
+}
