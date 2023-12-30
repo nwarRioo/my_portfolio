@@ -1,0 +1,34 @@
+{
+    "feedBlock": {
+        "emptyFeed": "Pas encore remplie."
+    },
+    "informationBlock": {
+        "name": "Anuar Satybaldinov",
+        "specialization": "Développeur Full Stack JavaScript."
+    },
+    "logo": "Portfolio",
+    "blockTitle": {
+        "feed": "Fil d'actualité",
+        "aboutMe": "À propos de moi",
+        "works": "Mes projets"
+    },
+    "aboutMe": {
+        "greeting": "Bonjour à tous!",
+        "nameAndProfession": "Je m'appelle Anuar. Je suis un développeur full stack JavaScript",
+        "knowledge": "Je développe des applications web et des sites internet en utilisant mes connaissances et compétences dans les domaines suivants:"
+    },
+    "projects": {
+        "titles": {
+            "htmlCss": "Prototype d'une page simple écrit en HTML et CSS",
+            "htmlSass": "Une page utilisant SASS",
+            "reactTs": "Une page en React TS utilisant Redux Toolkit",
+            "forum": "Prototype d'un forum web basé sur React TS et MongoDB",
+            "parallax": "Une page avec effet Parallax",
+            "game": "Jeu de plateforme 2D réalisé en JS"
+        },
+        "link": "Passer à la page",
+        "figmaLink": "Accéder à la page d'affichage du prototype Figma",
+        "githubLink": "Le lien du projet sur GitHub",
+        "youtubeLink": "Le lien vers la vidéo présentant le processus de fonctionnement du forum"
+    }
+}

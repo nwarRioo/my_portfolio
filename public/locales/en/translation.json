@@ -1,0 +1,33 @@
+{
+    "feedBlock": {
+        "emptyFeed": "Not filled in yet"
+    },
+    "informationBlock": {
+        "name": "Anuar Satybaldinov",
+        "specialization": "Javascript fullstack developer."
+    },
+    "logo": "Portfolio",
+    "blockTitle": {
+        "feed": "Feed",
+        "aboutMe": "About me",
+        "works": "Projects"
+    },
+    "aboutMe": {
+        "greeting": "Hello everyone!",
+        "nameAndProfession": "My name is Anuar. I'm fullstack Javascript developer",
+        "knowledge": "I develop web applications and websites using knowledge and skills in the following areas:"
+    },"projects": {
+        "titles": {
+            "htmlCss": "Simple page written using HTML and CSS example",
+            "htmlSass": "A page written using SASS",
+            "reactTs": "Example of a page in React TS using Redux Toolkit",
+            "forum": "Prototype of a web forum based on React TS and MongoDB",
+            "parallax": "Parallax design page",
+            "game": "2D platformer game created with JS"
+        },
+        "link": "Go to page",
+        "figmaLink": "Go to Figma design page",
+        "githubLink": "GitHub project link",
+        "youtubeLink": "Link to video demonstrating the forum process"
+    }
+}
