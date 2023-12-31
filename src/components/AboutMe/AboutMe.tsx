@@ -1,6 +1,5 @@
 import { FC, ReactElement } from "react";
 import styles from "./AboutMe.module.css";
-import data from "../../../public/locales/ru/translation.json"
 import { useTranslation } from "react-i18next";
 
 const AboutMe: FC = (): ReactElement => {
