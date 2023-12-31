@@ -19,10 +19,10 @@
     },
     "projects": {
         "titles": {
-            "htmlCss": "Пример простой страницы написанной на HTML и СSS",
+            "htmlCss": "Прототип простой страницы написанной на HTML и СSS",
             "htmlSass": "Пример страницы с использованием SASS",
-            "reactTs": "Пример страницы на React TS с использованием Redux Toolkit",
-            "forum": "Пример веб форума на базе React TS и MongoDB",
+            "reactTs": "Прототип E-commerce страницы на React TS с использованием Redux Toolkit",
+            "forum": "Образец веб форума на базе React TS и MongoDB",
             "parallax": "Пример страницы с эффектом Parallax",
             "game": "2D игра платформер реализованная на JS"
         },
