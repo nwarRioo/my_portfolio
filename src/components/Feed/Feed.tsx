@@ -14,8 +14,8 @@ const Feed:FC = (): ReactElement => {
                         <ReactPlayer
                         url="https://www.youtube.com/watch?v=53kB0GKAd2k"
                         controls={true}
-                        width="300px"
-                        height="200px"
+                        width="100%"
+                        height="100%"
                         />
                     </div>
                     <div className={styles.description}>

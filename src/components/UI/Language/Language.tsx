@@ -3,7 +3,7 @@ import styles from "./Language.module.css";
 import { useTranslation } from "react-i18next";
 import bus from "../../../assets/images/bus2.png";
 import matryoshka from "../../../assets/images/matryoshka.png";
-import eiffel from "../../../assets/images/eiffel.png";
+import eiffel from "../../../assets/images/eiffel4.png";
 
 const Language: FC = (): ReactElement => {
     const {i18n} = useTranslation("global");
