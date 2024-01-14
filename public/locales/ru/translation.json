@@ -24,7 +24,8 @@
             "reactTs": "Прототип E-commerce страницы на React TS с использованием Redux Toolkit",
             "forum": "Образец веб форума на базе React TS и MongoDB",
             "parallax": "Пример страницы с эффектом Parallax",
-            "game": "2D игра платформер реализованная на JS"
+            "game": "2D игра платформер реализованная на JS",
+            "restApi": "Сайт с использоавнием REST API Jsonplaceholder"
         },
         "link": "Перейти на страницу",
         "figmaLink": "Перейти на страницу просмотра макета Figma",

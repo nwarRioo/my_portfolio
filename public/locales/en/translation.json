@@ -23,7 +23,8 @@
             "reactTs": "Example of a page in React TS using Redux Toolkit",
             "forum": "Prototype of a web forum based on React TS and MongoDB",
             "parallax": "Parallax design page",
-            "game": "2D platformer game created with JS"
+            "game": "2D platformer game created with JS",
+            "restApi": "Website using REST API Jsonplaceholde"
         },
         "link": "Go to page",
         "figmaLink": "Go to Figma design page",

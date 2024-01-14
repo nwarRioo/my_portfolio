@@ -116,6 +116,24 @@ const Works: FC = (): ReactElement => {
                     >{t("projects.githubLink")}</Link>
                 </div>
             </div>
+            <div className={styles.workItem}>
+                <Link className={styles.workImg} to={"https://nwarrioo.github.io/story_sparkle/"} 
+                    target={"_blank"}>
+                    <img src="./story_sparkle.jpg" alt="website" />
+                </Link>
+                <div className={styles.workInfo}>
+                    <p className={styles.workTitle}>{t("projects.titles.restApi")}</p>
+                    <Link to={"https://nwarrioo.github.io/story_sparkle/"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >{t("projects.link")}</Link>
+                    <Link to={"https://github.com/nwarRioo/story_sparkle"} 
+                        target={"_blank"}
+                        className={styles.workLink}
+                    >{t("projects.githubLink")}</Link>
+                    <p className={styles.workDescription}>username: <b>user</b>, password: <b>password</b></p>
+                </div>
+            </div>
         </div>
     );
 };

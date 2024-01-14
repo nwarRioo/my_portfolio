@@ -51,18 +51,20 @@
     color: #A084E8;
 }
 
+.workDescription {
+    margin-top: 10px;
+}
+
 @media screen and (min-width: 500px) {
     .workItem {
         flex-direction: row;
-    }
-    
+    }   
     .workImg {
         max-width: 200px;
     }
 }
 
 @media screen and (min-width: 700px) {
-    
     .workImg {
         max-width: 300px;
     }
@@ -73,7 +75,6 @@
     .works {
         padding: 0;
     }
-
     .workImg {
         max-width: 450px;
     }
