@@ -24,7 +24,8 @@
             "reactTs": "Une page en React TS utilisant Redux Toolkit",
             "forum": "Prototype d'un forum web basé sur React TS et MongoDB",
             "parallax": "Une page avec effet Parallax",
-            "game": "Jeu de plateforme 2D réalisé en JS"
+            "game": "Jeu de plateforme 2D réalisé en JS",
+            "restApi": "Site utilisant l'API REST Jsonplaceholder"
         },
         "link": "Passer à la page",
         "figmaLink": "Accéder à la page d'affichage du prototype Figma",
