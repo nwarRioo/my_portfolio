@@ -9,7 +9,7 @@ import global_fr from "../public/locales/fr/translation.json";
 
 i18next.init({
     interpolation: {escapeValue: false},
-    lng: "ru",
+    lng: "en",
     resources: {
         ru: {
             global: global_ru

@@ -25,11 +25,10 @@ const Language: FC = (): ReactElement => {
              
             />
             <select onChange={handleChangeLanguage} value={i18n.language}
-            className={show ? `${styles.show}` : ""}
             >
-                <option value="en">English</option>
-                <option value="ru">Русский</option>
-                <option value="fr">Français</option>
+                <option value="en">EN</option>
+                <option value="ru">RU</option>
+                <option value="fr">FR</option>
             </select>
         </button>
     );
