@@ -40,8 +40,8 @@ const AboutMe: FC = (): ReactElement => {
                   <li>Life cycle of React components, AJAX requests, Firebase, SPA applications, multi-page applications;</li>
                   <li>Global application state, Redux-thunk, React-hooks, React-router, <b>RTK Query</b>;</li>
                   <li><b>React Native</b> Basics, Database Theory, <b>SQL</b>, <b>PostgreSQL</b>;</li>
-                  <li>Experience with server-side development. HTTP protocol, <b>Node.js</b>, <b>express</b>, <b>REST API</b>, CORS;</li>
-                  <li><b>MongoDB</b>, Mongoose, Registration and Authentication;</li>
+                  <li>Experience with server-side development. HTTP protocol, <b>Node.js</b>, <b>NestJS</b>, <b>express</b>, <b>REST API</b>, CORS;</li>
+                  <li><b>MongoDB</b>, Mongoose, <b>SQLite</b>, <b>Prisma ORM</b>,Registration and Authentication;</li>
                   <li>SOLID, Basic skills in writing BASH scripts, Express middleware, JWT tokens;</li>
                 </>
                 : 
